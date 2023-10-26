@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <div class="bola">
+        <strong>quantidade:</strong>
+        <input type="number" id="inputQuantidade">
+            
+        <strong>produto:</strong>
+        <input type="text" id="inputProduto">
+        
+        <strong>valor:</strong>
+        <input type="number" id="inputValor">
+    </div>
+
+    <div>
+        <button onclick="adicionarItens()">
+            Adicionar
+        </button>
+        
+
+
+    </div>
+
+
+    <table border="3" >
+        <tr>
+            <th>Quantidade</th>        
+            <th>Produto</th>
+            <th>Valor</th>
+        </tr>
+
+        <tr>
+            <td>
+                3 
+            </td>
+            
+            <td>
+                Litros de Leite 
+            </td>
+
+            <td>
+                R$5,00
+            </td>
+
+            <td>
+                <button>Apagar</button>
+            </td>
+        </tr>
+    </table>
+    
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
