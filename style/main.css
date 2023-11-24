@@ -1,8 +1,12 @@
-h1{
-   color: red;
-
+/* Insignia HTML nível 1: Aplique estilos simples de CSS: cores, fontes e tamanhos. */
+h1 {
+  color: red;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.bola{
-    color: blue;
+.bola {
+  color: blue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
